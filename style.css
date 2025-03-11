@@ -1,0 +1,155 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    margin: 0 30px;
+    background-color: #1F2937;
+    color: #F9FAF8; 
+}
+
+.header, .hero, .footer, .quote, .random { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+.header {
+    padding: 18px 150px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.hero {
+    height: 450px;  
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.hero-left > p {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 450px;
+}
+
+img {
+    height: 250px;  
+    width: 500px;
+}
+button {
+    color: white;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.random {
+    font-size: 36px;
+    background-color: white;
+    height: 450px;
+    color: #1F2937;
+    font-weight: 900; 
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.random-image, .random-text {
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.image {
+    border: 5px solid #3882F6;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.random-image-text {
+    font-size: 15px;
+    font-weight: 300;
+    width: 160px;    
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column; 
+}
+
+.quote-text {
+    align-self: center;
+    font-style: italic;
+    font-weight: 200;
+    width: 800px;
+}
+
+.author {
+    margin-top: 15px;
+    font-weight: 600;
+    align-self: flex-end;    
+} 
+
+.cto-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 250px;
+}
+
+.cto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB
+}
+
+.cto-title {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.cto-text {
+    margin: 0;
+}
+
+.cto > button {
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    height: 100px;
+    justify-content: center;
+}
